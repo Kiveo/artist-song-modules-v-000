@@ -13,6 +13,7 @@ class Song
 
   def initialize
     # @@songs << self
+    super
     self.class.all << self
   end
   def self.all
