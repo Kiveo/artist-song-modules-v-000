@@ -11,10 +11,10 @@ class Song
 
   @@songs = []
 
-  def initialize
-    # @@songs << self
-    self.class.all << self
-  end
+  # def initialize
+  #   # @@songs << self
+  #   self.class.all << self
+  # end
   def self.all
     @@songs
   end
