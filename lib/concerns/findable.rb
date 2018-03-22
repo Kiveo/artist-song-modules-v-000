@@ -1,6 +1,7 @@
-module Findable 
+module Findable
 
-  def method_name
+  def self.find_by_name
     
   end
+  
 end
